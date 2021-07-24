@@ -1,8 +1,8 @@
-# abtest-mlops
+# SmartAd-Campaign
 
 
 ### Objective
-Test if the ads that the advertising company runs resulted in a significant lift in brand awareness. Our task here, is to design a reliable hypothesis testing algorithm for the Brand Impact Optimiser (BIO), which is a lightweight questionarie served with every campaign to detrmine the impact of the creative, service and to determine whether a recent advertising campaign resulted in a significant lift in their brand awareness.
+Test if the ads that the advertising company runs resulted in a significant lift in brand awareness. Our task here, is to design a reliable hypothesis testing algorithm for the Brand Impact Optimiser (BIO), which is a lightweight questionnaire served with every campaign.
 
 ### Data
 
@@ -11,12 +11,25 @@ The BIO data for this project is a “Yes” and “No” response of online use
 
 Q: Do you know the brand SmartAd? O Yes O No The users that were presented with the questionnaire above were chosen according to the following rule:
 
-Control: users who have been shown a dummy ad Exposed: users who have been shown a creative, an online interactive ad, with the SmartAd brand. The data is collected from 3-10 jul 2020 from SmartAd advertising agency.
-    
-The data collected for this challenge has the following columns auction_id: the unique id of the online user who has been presented the BIO. In standard terminologies this is called an impression id. The user may see the BIO questionnaire but choose not to respond. In that case both the yes and no columns are zero. experiment: which group the user belongs to - control or exposed. date: the date in YYYY-MM-DD format hour: the hour of the day in HH format. device_make: the name of the type of device the user has e.g. Samsung platform_os: the id of the OS the user has. browser: the name of the browser the user uses to see the BIO questionnaire.
+* Control: users who have been shown a dummy ad 
+* Exposed: users who have been shown a creative, an online interactive ad, with the SmartAd brand. 
+The data is collected from 3-10 jul 2020 from SmartAd  advertising agency.
+
+#### This project is divided into four main sections:
+
+   * Creating an A/B testing framework that includes traditional, sequential, and machine learning tests
+   * Creating a repeatable machine learning framework
+   * Using MLOps best practices, conduct A/B testing with classical, sequential, and machine learning methodologies.
+   * Obtaining statistically valid insights in respect to the business goal
+
+#### what has been implemented
+
+* Classical Type of A/B testing 
+* Sequential A/B testing
+* A/B testing with Machine Learning 
+* data versioning using DVC
+* MLOps using mlfow package and Continous Integration for Machine Learning (CML).
 
 
-### Method
-A/B Hypothesis Testing is a way to compare two versions of something to figure out which performs better.
 The notebooks in this repository contains data exploration and implementation of classical p-value based algorithm,the sequential A/B testing algorithm  and Machine learning based AB testing in Python.  
 
