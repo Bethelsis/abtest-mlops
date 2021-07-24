@@ -14,6 +14,7 @@ path = 'data/AdSmartABdata.csv'
 repo = '/home/bethelhem/abtest-mlops'
 version = 'v_browser'
 
+
 data_url = dvc.api.get_url(
 	path = path,
 	repo = repo,
