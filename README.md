@@ -12,16 +12,17 @@ The BIO data for this project is a “Yes” and “No” response of online use
 Q: Do you know the brand SmartAd? O Yes O No The users that were presented with the questionnaire above were chosen according to the following rule:
 
 * Control: users who have been shown a dummy ad 
-* Exposed: users who have been shown a creative, an online interactive ad, with the SmartAd brand. The data is collected from 3-10 jul 2020 from SmartAd  advertising agency.
+* Exposed: users who have been shown a creative, an online interactive ad, with the SmartAd brand. 
+The data is collected from 3-10 jul 2020 from SmartAd  advertising agency.
 
-# This project is divided into four main sections:
+#### This project is divided into four main sections:
 
    * Creating an A/B testing framework that includes traditional, sequential, and machine learning tests
    * Creating a repeatable machine learning framework
    * Using MLOps best practices, conduct A/B testing with classical, sequential, and machine learning methodologies.
    * Obtaining statistically valid insights in respect to the business goal
 
-# what has been implemented
+#### what has been implemented
 
 * Classical Type of A/B testing 
 * Sequential A/B testing
