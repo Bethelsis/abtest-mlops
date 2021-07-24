@@ -1,4 +1,4 @@
-name: model_SmartAdAB_testing
+name: SmartAdAB_model_testing
 on: [push]
 jobs:
   run:
@@ -7,7 +7,7 @@ jobs:
     # container: docker://dvcorg/cml:0-dvc2-base1-gpu
     # container: docker://ghcr.io/iterative/cml:0-dvc2-base1-gpu
     steps:
-      - uses: actions/checkout@v_platform
+      - uses: actions/checkout@v0
       # may need to setup NodeJS & Python3 on e.g. self-hosted
       # - uses: actions/setup-node@v2
       #   with:
@@ -20,4 +20,5 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python abtest.py
+          python model.py
+          
