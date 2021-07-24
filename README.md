@@ -27,8 +27,8 @@ The data is collected from 3-10 jul 2020 from SmartAd  advertising agency.
 * Classical Type of A/B testing 
 * Sequential A/B testing
 * A/B testing with Machine Learning 
-* DVC setup
-* ML Framework Setup using CML
+* data versioning using DVC
+* MLOps using mlfow package and Continous Integration for Machine Learning (CML).
 
 
 The notebooks in this repository contains data exploration and implementation of classical p-value based algorithm,the sequential A/B testing algorithm  and Machine learning based AB testing in Python.  
